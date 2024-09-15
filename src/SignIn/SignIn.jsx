@@ -9,7 +9,7 @@ const SignIn = () => {
             <div className="SignIn_left">
                 <img src={logo} alt="" />
                 <h1>Sign in to EduWiz</h1>
-                <h2>Welcome back! Please sing in to continue</h2>
+                <h2>Welcome back! Please sign in to continue</h2>
             </div>
             <div className="SignIn_right">
                 <input type="text" placeholder='Enter your email' />
@@ -24,4 +24,4 @@ const SignIn = () => {
     )
 }
 
-export default SignUp
+export default SignIn
